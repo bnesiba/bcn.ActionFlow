@@ -1,0 +1,8 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/bcn.ActionFlow/.vs/bcn.ActionFlow/FileContentIndex
+/bcn.ActionFlow/ActionFlow/obj
+/bcn.ActionFlow/.vs/bcn.ActionFlow/v17
