@@ -9,7 +9,7 @@
     <Product>bcn.$(AssemblyName)</Product>
     <Version>$(VersionPrefix)</Version>
     <PackageId>bcn.$(AssemblyName)</PackageId>
-    <Title>ActionFlow - a redux implementation for .Net</Title>
+    <Title>ActionFlow - a redux-like architecture for .Net</Title>
     <Description>ActionFlow provides a typesafe, straightforward, acttion-based architecture for .Net applications.
 
 ActionFlow is inspired by the Redux/Flux pattern and uses Actions, Side Effects, and Reducers to manage application state and flow</Description>
