@@ -7,10 +7,10 @@
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Authors>Brandon Nesiba</Authors>
     <Product>bcn.$(AssemblyName)</Product>
-    <Version>$(VersionPrefix)</Version>
+    <Version>1.0.1</Version>
     <PackageId>bcn.$(AssemblyName)</PackageId>
     <Title>ActionFlow - a redux-like architecture for .Net</Title>
-    <Description>ActionFlow provides a typesafe, straightforward, acttion-based architecture for .Net applications.
+    <Description>ActionFlow provides a typesafe, straightforward, action-based architecture for .Net applications.
 
 Inspired by the Redux/Flux pattern, ActionFlow allows the use of Actions, Side Effects, and Reducers to manage application state and flow</Description>
     <PackageProjectUrl></PackageProjectUrl>
