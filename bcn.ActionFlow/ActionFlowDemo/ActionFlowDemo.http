@@ -1,6 +1,0 @@
-@ActionFlowDemo_HostAddress = http://localhost:5123
-
-GET {{ActionFlowDemo_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
