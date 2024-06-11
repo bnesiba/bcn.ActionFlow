@@ -4,6 +4,31 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Authors>Brandon Nesiba</Authors>
+    <Product>bcn.$(AssemblyName)</Product>
+    <Version>$(VersionPrefix)</Version>
+    <PackageId>bcn.$(AssemblyName)</PackageId>
+    <Title>ActionFlow - a redux implementation for .Net</Title>
+    <Description>ActionFlow provides a typesafe, straightforward, acttion-based architecture for .Net applications.
+
+ActionFlow is inspired by the Redux/Flux pattern and uses Actions, Side Effects, and Reducers to manage application state and flow</Description>
+    <PackageProjectUrl></PackageProjectUrl>
+    <RepositoryUrl>https://github.com/bnesiba/bcn.ActionFlow</RepositoryUrl>
+    <PackageTags>redux, flux, actions</PackageTags>
+    <PackageIcon>ActionFlow.png</PackageIcon>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="ActionFlow.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>

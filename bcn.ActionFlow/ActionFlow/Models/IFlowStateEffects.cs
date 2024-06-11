@@ -1,5 +1,4 @@
 ﻿using Newtonsoft.Json;
-using OpenAIConnector.ChatGPTRepository.models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
