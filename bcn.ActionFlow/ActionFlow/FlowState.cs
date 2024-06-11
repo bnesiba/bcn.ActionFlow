@@ -35,10 +35,23 @@ namespace SessionStateFlow.package
 
 
         //trigger action
+        //TODO: allow actions to be triggered more cleanly from effects (effects must use FlowActionHandler)
+
+        /// <summary>
+        /// Cause an action to be resolved. Currently not for use in effect files
+        /// NOTE: Call FlowActionHandler.ResolveAction when in effect files
+        /// </summary>
+        /// <param name="action">action to resolve</param>
         public void ResolveAction(FlowAction action)
         {
             _flowStateActions(action);
         }
+
+        /// <summary>
+        /// Cause an action to be resolved. Currently not for use in effect files
+        /// NOTE: Call FlowActionHandler.ResolveAction when in effect files
+        /// </summary>
+        /// <param name="action">action to resolve</param>
         public void ResolveAction<T>(FlowAction<T> action)
         {
             _flowStateActions(action);

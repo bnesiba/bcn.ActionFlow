@@ -10,6 +10,7 @@ namespace SessionStateFlow.package
 {
     public static class FlowStateBuilder
     {
+        //TODO: allow builder methods for scoped or singleton + allow complex scoping
         public static IServiceCollection UseFlowState(this IServiceCollection services)
         {
             services.AddScoped<FlowActionHandler>();
@@ -24,6 +25,7 @@ namespace SessionStateFlow.package
             return services;
         }
 
+        //TODO: Allow applications without reducers? Currently must have at least one reducer.
         public static IServiceCollection UseReducer<S,T>(this IServiceCollection services) 
             where S : class, IFlowStateReducer<T>
             where T : class
