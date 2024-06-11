@@ -12,7 +12,7 @@
     <Title>ActionFlow - a redux-like architecture for .Net</Title>
     <Description>ActionFlow provides a typesafe, straightforward, acttion-based architecture for .Net applications.
 
-ActionFlow is inspired by the Redux/Flux pattern and uses Actions, Side Effects, and Reducers to manage application state and flow</Description>
+Inspired by the Redux/Flux pattern, ActionFlow allows the use of Actions, Side Effects, and Reducers to manage application state and flow</Description>
     <PackageProjectUrl></PackageProjectUrl>
     <RepositoryUrl>https://github.com/bnesiba/bcn.ActionFlow</RepositoryUrl>
     <PackageTags>redux, flux, actions</PackageTags>
