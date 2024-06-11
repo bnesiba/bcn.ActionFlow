@@ -1,10 +1,10 @@
 ﻿using Newtonsoft.Json;
-using SessionStateFlow.package.Models;
+using ActionFlow.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace SessionStateFlow.package
+namespace ActionFlow
 {
     //TODO: will probably need to break up some of the logic in this file eventually
     public class FlowState

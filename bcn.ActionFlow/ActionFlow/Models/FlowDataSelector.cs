@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SessionStateFlow.package.Models
+namespace ActionFlow.Models
 {
     public class FlowDataSelector<Input, Output>
     {
