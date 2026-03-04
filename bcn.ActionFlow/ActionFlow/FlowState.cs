@@ -1,16 +1,12 @@
-﻿using Newtonsoft.Json;
+﻿using System.Text.Json;
 using ActionFlow.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-
 namespace ActionFlow
 {
     //TODO: will probably need to break up some of the logic in this file eventually
     public class FlowState
     {
         internal delegate void FlowStateActions(FlowActionBase action);
-        internal FlowStateActions _flowStateActions = (action) => { System.Diagnostics.Debug.WriteLine($"action: {JsonConvert.SerializeObject(action.Name)}\n"); };
+        internal FlowStateActions _flowStateActions = (action) => { System.Diagnostics.Debug.WriteLine($"action: {JsonSerializer.Serialize(action)}\n"); };
 
         public FlowState(IEnumerable<IFlowStateEffects> effects, IEnumerable<IFlowStateDataCore> flowDatas, FlowActionHandler flowActionHandler)
         {
