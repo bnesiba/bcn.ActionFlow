@@ -9,6 +9,8 @@
     {
     }
 
+    //TODO: restructure action setup to allow empty executions or make them delgates or something
+    //to avoid having to make them all nullable or make effects harder to read
     public abstract class FlowActionBase
     {
         public required string Name { get; init; }

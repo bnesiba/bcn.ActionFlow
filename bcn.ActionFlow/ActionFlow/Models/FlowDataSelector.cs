@@ -1,5 +1,6 @@
 ﻿namespace ActionFlow.Models
 {
+    //TODO: maybe selectors don't need to exist?
     public class FlowDataSelector<Input, Output>
     {
         internal Func<Input, Output> selectorFunc { get; init; }
