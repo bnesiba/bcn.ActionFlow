@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ActionFlow.Models
+﻿namespace ActionFlow.Models
 {
     public class FlowAction<T> : FlowActionBase
     {
@@ -15,6 +9,8 @@ namespace ActionFlow.Models
     {
     }
 
+    //TODO: restructure action setup to allow empty executions or make them delgates or something
+    //to avoid having to make them all nullable or make effects harder to read
     public abstract class FlowActionBase
     {
         public required string Name { get; init; }

@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ActionFlow.Models
+﻿namespace ActionFlow.Models
 {
+    //TODO: maybe selectors don't need to exist?
     public class FlowDataSelector<Input, Output>
     {
         internal Func<Input, Output> selectorFunc { get; init; }

@@ -7,7 +7,7 @@
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Authors>Brandon Nesiba</Authors>
     <Product>bcn.$(AssemblyName)</Product>
-    <Version>1.0.1</Version>
+    <Version>1.0.2</Version>
     <PackageId>bcn.$(AssemblyName)</PackageId>
     <Title>ActionFlow - a redux-like architecture for .Net</Title>
     <Description>ActionFlow provides a typesafe, straightforward, action-based architecture for .Net applications.
@@ -35,7 +35,6 @@ Inspired by the Redux/Flux pattern, ActionFlow allows the use of Actions, Side E
 
   <ItemGroup>
     <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.1" />
-    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
   </ItemGroup>
 
   <ItemGroup>
